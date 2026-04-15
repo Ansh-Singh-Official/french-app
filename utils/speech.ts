@@ -1,4 +1,4 @@
-export const playgGerman = (text: string): void => {
+export const playGerman = (text: string): void => {
   if (typeof window !== 'undefined') {
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = 'de-DE';

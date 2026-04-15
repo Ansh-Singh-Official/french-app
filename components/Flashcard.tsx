@@ -26,7 +26,7 @@ export default function Flashcard({ lesson }: LessonProps) {
           <span className="text-[10px] text-blue-500 font-bold tracking-[0.2em] mb-3 uppercase">{lesson.category}</span>
           <h2 className="text-3xl font-bold mb-6 tracking-tight">{lesson.fr}</h2>
           <button 
-            onClick={(e) => { e.stopPropagation(); playFrench(lesson.fr); }}
+            onClick={(e) => { e.stopPropagation(); playGerman(lesson.fr); }}
             className="w-12 h-12 flex items-center justify-center bg-white/5 rounded-full hover:bg-blue-600 transition-all group-hover:scale-110"
           >
             🔊
